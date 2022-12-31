@@ -1,7 +1,7 @@
 ccflags-y += -I$(src)
 
 ccflags-y += -DANSI_COLORS
-ccflags-y += -DDEBUG
+ccflags-y += -Ofast
 ccflags-y += -DMHL_BUILD_NUM=1
 ccflags-y += -DDEVELOPER_BUILD_ID=1
 ccflags-y += -DBUILD_NUM_STRING=\"$(MHL_BUILD_NUM)$(DEVELOPER_BUILD_ID)\"

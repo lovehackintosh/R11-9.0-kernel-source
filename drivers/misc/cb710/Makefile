@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_CB710_DEBUG)	:= -DDEBUG
+ccflags-$(CONFIG_CB710_DEBUG)	:= -Ofast
 
 obj-$(CONFIG_CB710_CORE)	+= cb710.o
 

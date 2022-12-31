@@ -16,5 +16,5 @@ ifeq ($(CONFIG_CPU_V7),y)
 AFLAGS_pm_suspend.o := -march=armv7-a
 endif
 ifeq ($(CONFIG_PM_DEBUG),y)
-CFLAGS_pm.o += -DDEBUG
+CFLAGS_pm.o += -Ofast
 endif

@@ -1,5 +1,5 @@
 
-ccflags-$(CONFIG_PM_DEBUG)	:= -DDEBUG
+ccflags-$(CONFIG_PM_DEBUG)	:= -Ofast
 
 obj-y				+= qos.o
 obj-$(CONFIG_PM)		+= main.o

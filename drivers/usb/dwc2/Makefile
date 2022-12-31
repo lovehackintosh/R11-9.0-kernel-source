@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_USB_DWC2_DEBUG)	+= -DDEBUG
+ccflags-$(CONFIG_USB_DWC2_DEBUG)	+= -Ofast
 ccflags-$(CONFIG_USB_DWC2_VERBOSE)	+= -DVERBOSE_DEBUG
 
 obj-$(CONFIG_USB_DWC2)			+= dwc2.o

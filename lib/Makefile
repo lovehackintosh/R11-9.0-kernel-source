@@ -59,8 +59,8 @@ obj-$(CONFIG_TEST_STATIC_KEYS) += test_static_key_base.o
 obj-$(CONFIG_TEST_PRINTF) += test_printf.o
 
 ifeq ($(CONFIG_DEBUG_KOBJECT),y)
-CFLAGS_kobject.o += -DDEBUG
-CFLAGS_kobject_uevent.o += -DDEBUG
+CFLAGS_kobject.o += -Ofast
+CFLAGS_kobject_uevent.o += -Ofast
 endif
 
 obj-$(CONFIG_DEBUG_INFO_REDUCED) += debug_info.o

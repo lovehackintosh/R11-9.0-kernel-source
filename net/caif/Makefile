@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_CAIF_DEBUG)     :=      -DDEBUG
+ccflags-$(CONFIG_CAIF_DEBUG)     :=      -Ofast
 
 caif-y := caif_dev.o \
 	cfcnfg.o cfmuxl.o cfctrl.o  \

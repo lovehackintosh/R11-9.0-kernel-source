@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_USB_CHIPIDEA_DEBUG) := -DDEBUG
+ccflags-$(CONFIG_USB_CHIPIDEA_DEBUG) := -Ofast
 
 obj-$(CONFIG_USB_CHIPIDEA)		+= ci_hdrc.o
 

@@ -9,4 +9,4 @@ obj-$(CONFIG_RAPIDIO_ENUM_BASIC) += rio-scan.o
 obj-$(CONFIG_RAPIDIO)		+= switches/
 obj-$(CONFIG_RAPIDIO)		+= devices/
 
-subdir-ccflags-$(CONFIG_RAPIDIO_DEBUG) := -DDEBUG
+subdir-ccflags-$(CONFIG_RAPIDIO_DEBUG) := -Ofast

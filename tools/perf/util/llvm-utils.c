@@ -15,7 +15,7 @@
 		"$CLANG_OPTIONS $KERNEL_INC_OPTIONS "		\
 		"-Wno-unused-value -Wno-pointer-sign "		\
 		"-working-directory $WORKING_DIR "		\
-		"-c \"$CLANG_SOURCE\" -target bpf -O2 -o -"
+		"-c \"$CLANG_SOURCE\" -target bpf -Ofast -o -"
 
 struct llvm_param llvm_param = {
 	.clang_path = "clang",

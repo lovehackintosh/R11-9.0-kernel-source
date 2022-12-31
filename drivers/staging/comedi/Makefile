@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_COMEDI_DEBUG)		:= -DDEBUG
+ccflags-$(CONFIG_COMEDI_DEBUG)		:= -Ofast
 
 comedi-y				:= comedi_fops.o range.o drivers.o \
 					   comedi_buf.o

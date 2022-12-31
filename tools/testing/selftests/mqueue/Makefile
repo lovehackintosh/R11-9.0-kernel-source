@@ -1,4 +1,4 @@
-CFLAGS += -O2
+CFLAGS += -Ofast
 LDLIBS = -lrt -lpthread -lpopt
 TEST_PROGS := mq_open_tests mq_perf_tests
 

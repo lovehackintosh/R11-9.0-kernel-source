@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_DRM_TEGRA_DEBUG) += -DDEBUG
+ccflags-$(CONFIG_DRM_TEGRA_DEBUG) += -Ofast
 
 tegra-drm-y := \
 	drm.o \

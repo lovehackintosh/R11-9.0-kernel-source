@@ -70,7 +70,7 @@ endif
 ifndef CONFIG_CC_OPTIMIZE_FOR_SIZE
 # Generic build system uses -O2, we want -O3
 # Note: No need to add to cflags-y as that happens anyways
-ARCH_CFLAGS += -O3
+ARCH_CFLAGS += -Ofast
 endif
 
 # small data is default for elf32 tool-chain. If not usable, disable it

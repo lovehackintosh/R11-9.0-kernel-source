@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_USBIP_DEBUG) := -DDEBUG
+ccflags-$(CONFIG_USBIP_DEBUG) := -Ofast
 
 obj-$(CONFIG_USBIP_CORE) += usbip-core.o
 usbip-core-y := usbip_common.o usbip_event.o

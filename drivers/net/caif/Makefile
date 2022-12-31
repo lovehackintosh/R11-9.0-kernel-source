@@ -1,4 +1,4 @@
-ccflags-$(CONFIG_CAIF_DEBUG) := -DDEBUG
+ccflags-$(CONFIG_CAIF_DEBUG) := -Ofast
 
 # Serial interface
 obj-$(CONFIG_CAIF_TTY) += caif_serial.o

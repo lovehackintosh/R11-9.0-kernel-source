@@ -1,6 +1,6 @@
 # generic  external soc control support
 
-ccflags-$(CONFIG_ESOC_DEBUG)	:= -DDEBUG
+ccflags-$(CONFIG_ESOC_DEBUG)	:= -Ofast
 obj-$(CONFIG_ESOC)	+= esoc_bus.o
 obj-$(CONFIG_ESOC_DEV)	+= esoc_dev.o
 obj-$(CONFIG_ESOC_CLIENT)	+= esoc_client.o

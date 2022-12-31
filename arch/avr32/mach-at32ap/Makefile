@@ -4,5 +4,5 @@ obj-$(CONFIG_CPU_AT32AP700X)	+= at32ap700x.o pm-at32ap700x.o
 obj-$(CONFIG_PM)		+= pm.o
 
 ifeq ($(CONFIG_PM_DEBUG),y)
-CFLAGS_pm.o	+= -DDEBUG
+CFLAGS_pm.o	+= -Ofast
 endif

@@ -58,7 +58,7 @@ obj-$(CONFIG_XEN_PCIDEV_FRONTEND) += xen-pcifront.o
 
 obj-$(CONFIG_OF) += of.o
 
-ccflags-$(CONFIG_PCI_DEBUG) := -DDEBUG
+ccflags-$(CONFIG_PCI_DEBUG) := -Ofast
 
 # PCI host controller drivers
 obj-y += host/

@@ -1,6 +1,6 @@
 # Makefile for OMAP3 ISP driver
 
-ccflags-$(CONFIG_VIDEO_OMAP3_DEBUG) += -DDEBUG
+ccflags-$(CONFIG_VIDEO_OMAP3_DEBUG) += -Ofast
 
 omap3-isp-objs += \
 	isp.o ispvideo.o \

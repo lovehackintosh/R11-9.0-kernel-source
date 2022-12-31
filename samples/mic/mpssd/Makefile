@@ -9,7 +9,7 @@ CC = $(CROSS_COMPILE)gcc
 CFLAGS := -I../../../usr/include -I../../../tools/include
 
 ifdef DEBUG
-CFLAGS += -DDEBUG=$(DEBUG)
+CFLAGS += -Ofast
 endif
 
 all: $(PROGS)
